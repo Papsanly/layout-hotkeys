@@ -17,5 +17,5 @@ After a successful installation, re-log into **GNOME Shell**, and enable the ext
 
 ## License
 
-This **Gnome Shell** extension is distributed under the terms of the **GNU General Public License**,
+This **GNOME Shell** extension is distributed under the terms of the **GNU General Public License**,
 version **2** or later. See the *LICENSE* file for details.
