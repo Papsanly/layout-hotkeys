@@ -5,6 +5,11 @@ This **GNOME Shell** extension aims to provide direct hotkeys for input layouts.
 The default **GNOME Shell** does not have such functionality and requires a user to cycle through all layouts,
 what is not a convenient way for more than two different input layouts.
 
-## How-to Use
+## Usage
 
 Press **Shift + Alt + *N***, and the input layout number ***N*** will be selected.
+
+## License
+
+This **Gnome Shell** extension is distributed under the terms of the **GNU General Public License**,
+version **2** or later. See the *LICENSE* file for details.
