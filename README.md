@@ -9,6 +9,12 @@ what is not a convenient way for more than two different input layouts.
 
 Press **Shift + Alt + *N***, and the input layout number ***N*** will be selected.
 
+## Manual Intallation
+
+    ./install.sh
+
+After a successful installation, re-log into **GNOME Shell**, and enable the extension in **Extensions**.
+
 ## License
 
 This **Gnome Shell** extension is distributed under the terms of the **GNU General Public License**,
