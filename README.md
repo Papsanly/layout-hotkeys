@@ -1,2 +1,10 @@
-# layout-hotkeys
-GNOME Shell extension providing support of hotkeys to switch layouts directly via Shift + Alt + [1-9].
+# Layout Hotkeys
+
+## Description
+
+This **GNOME Shell** extension aims to provide direct hotkeys for input layouts.
+
+The default **GNOME Shell** does not have such functionality and requires a user to cycle through all layouts,
+what is not a convenient way for more than two different input layouts.
+
+To use the extension, press **Shift + Alt + *N***, and the input layout number ***N*** will be selected.
