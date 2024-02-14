@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
   <schema id="org.gnome.shell.extensions.layout-hotkeys" path="/org/gnome/shell/extensions/layout-hotkeys/">
     <key name="switch-to-layout-1" type="as">
