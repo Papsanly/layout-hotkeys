@@ -24,7 +24,9 @@ export default class LayoutHotkeysExtention extends Extension {
     }
 
     disable() {
-        this._foreachLayoutHotkey((hotkey, id) => {
+        this._settings = null;
+
+        this._foreachLayoutHotkey((hotkey, _) => {
             Main.wm.removeKeybinding(hotkey);
         })
     }
