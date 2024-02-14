@@ -1,9 +1,9 @@
 import Meta from 'gi://Meta';
 import Shell from 'gi://Shell';
 
-import { Extension } from 'resource:///org/gnome/shell/extensions/extension.js';
+import {Extension} from 'resource:///org/gnome/shell/extensions/extension.js';
 
-import { getInputSourceManager } from 'resource:///org/gnome/shell/ui/status/keyboard.js';
+import {getInputSourceManager} from 'resource:///org/gnome/shell/ui/status/keyboard.js';
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 
 const NUM_HOTKEYS = 10;
@@ -20,7 +20,7 @@ export default class LayoutHotkeysExtention extends Extension {
                 Shell.ActionMode.NORMAL | Shell.ActionMode.OVERVIEW,
                 this._switchToLayout.bind(this, id)
             );
-        })
+        });
     }
 
     disable() {
@@ -28,19 +28,17 @@ export default class LayoutHotkeysExtention extends Extension {
 
         this._foreachLayoutHotkey((hotkey, _) => {
             Main.wm.removeKeybinding(hotkey);
-        })
+        });
     }
 
     _foreachLayoutHotkey(handler) {
-        for (let id = 0; id < NUM_HOTKEYS; id++) {
-            handler('switch-to-layout-' + (id + 1), id)
-        }
+        for (let id = 0; id < NUM_HOTKEYS; id++)
+            handler(`switch-to-layout-${id + 1}`, id);
     }
 
     _switchToLayout(id) {
-        let inputSources = getInputSourceManager().inputSources
-        if (id in inputSources) {
-            inputSources[id].activate()
-        }
+        let inputSources = getInputSourceManager().inputSources;
+        if (id in inputSources)
+            inputSources[id].activate();
     }
 }
