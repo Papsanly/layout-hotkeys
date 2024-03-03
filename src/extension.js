@@ -8,7 +8,7 @@ import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 
 const NUM_HOTKEYS = 10;
 
-export default class LayoutHotkeysExtention extends Extension {
+export default class LayoutHotkeysExtension extends Extension {
     enable() {
         this._settings = this.getSettings();
 
