@@ -11,7 +11,9 @@ Press **Shift + Alt + *N***, and the input layout number ***N*** will be selecte
 
 ## Manual Intallation
 
-    ./install.sh
+~~~ bash
+./install.sh
+~~~
 
 After a successful installation, re-log into **GNOME Shell**, and enable the extension in **Extensions**.
 
