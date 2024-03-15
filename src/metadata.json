@@ -4,5 +4,6 @@
   "description": "Add hotkeys to switch layouts directly via Shift + Alt + [1-9].",
   "shell-version": ["46"],
   "url": "https://github.com/MrDvorak/layout-hotkeys",
-  "settings-schema": "org.gnome.shell.extensions.layout-hotkeys"
+  "settings-schema": "org.gnome.shell.extensions.layout-hotkeys",
+  "version-name": "2.0"
 }
