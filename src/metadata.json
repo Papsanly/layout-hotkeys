@@ -1,8 +1,8 @@
 {
+  "uuid": "layout-hotkeys@max.post.space.gmail.com",
   "name": "Layout Hotkeys",
   "description": "Add hotkeys to switch layouts directly via Shift + Alt + [1-9].",
+  "shell-version": ["45"],
   "url": "https://github.com/MrDvorak/layout-hotkeys",
-  "uuid": "layout-hotkeys@max.post.space.gmail.com",
-  "settings-schema": "org.gnome.shell.extensions.layout-hotkeys",
-  "shell-version": ["45"]
+  "settings-schema": "org.gnome.shell.extensions.layout-hotkeys"
 }
