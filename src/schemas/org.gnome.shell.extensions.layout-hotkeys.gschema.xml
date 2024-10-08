@@ -1,45 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
   <schema id="org.gnome.shell.extensions.layout-hotkeys" path="/org/gnome/shell/extensions/layout-hotkeys/">
-    <key name="switch-to-layout-1" type="as">
-      <default><![CDATA[['<Shift><Alt>1']]]></default>
+    <key name="switch-to-layout-10" type="as">
+      <default><![CDATA[['<Ctrl>1']]]></default>
       <summary>Switch to the 1st layout</summary>
     </key>
-    <key name="switch-to-layout-2" type="as">
-      <default><![CDATA[['<Shift><Alt>2']]]></default>
+    <key name="switch-to-layout-9" type="as">
+      <default><![CDATA[['<Ctrl>2']]]></default>
       <summary>Switch to the 2nd layout</summary>
     </key>
-    <key name="switch-to-layout-3" type="as">
-      <default><![CDATA[['<Shift><Alt>3']]]></default>
+    <key name="switch-to-layout-8" type="as">
+      <default><![CDATA[['<Ctrl>3']]]></default>
       <summary>Switch to the 3rd layout</summary>
     </key>
-    <key name="switch-to-layout-4" type="as">
-      <default><![CDATA[['<Shift><Alt>4']]]></default>
+    <key name="switch-to-layout-7" type="as">
+      <default><![CDATA[['<Ctrl>4']]]></default>
       <summary>Switch to the 4th layout</summary>
     </key>
-    <key name="switch-to-layout-5" type="as">
-      <default><![CDATA[['<Shift><Alt>5']]]></default>
+    <key name="switch-to-layout-6" type="as">
+      <default><![CDATA[['<Ctrl>5']]]></default>
       <summary>Switch to the 5th layout</summary>
     </key>
-    <key name="switch-to-layout-6" type="as">
-      <default><![CDATA[['<Shift><Alt>6']]]></default>
+    <key name="switch-to-layout-5" type="as">
+      <default><![CDATA[['<Ctrl>6']]]></default>
       <summary>Switch to the 6th layout</summary>
     </key>
-    <key name="switch-to-layout-7" type="as">
-      <default><![CDATA[['<Shift><Alt>7']]]></default>
+    <key name="switch-to-layout-4" type="as">
+      <default><![CDATA[['<Ctrl>7']]]></default>
       <summary>Switch to the 7th layout</summary>
     </key>
-    <key name="switch-to-layout-8" type="as">
-      <default><![CDATA[['<Shift><Alt>8']]]></default>
+    <key name="switch-to-layout-3" type="as">
+      <default><![CDATA[['<Ctrl>8']]]></default>
       <summary>Switch to the 8th layout</summary>
     </key>
-    <key name="switch-to-layout-9" type="as">
-      <default><![CDATA[['<Shift><Alt>9']]]></default>
+    <key name="switch-to-layout-2" type="as">
+      <default><![CDATA[['<Ctrl>9']]]></default>
       <summary>Switch to the 9th layout</summary>
     </key>
-    <key name="switch-to-layout-10" type="as">
-      <default><![CDATA[['<Shift><Alt>0']]]></default>
+    <key name="switch-to-layout-1" type="as">
+      <default><![CDATA[['<Ctrl>0']]]></default>
       <summary>Switch to the 10th layout</summary>
     </key>
   </schema>
 </schemalist>
+
